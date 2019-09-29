@@ -1,0 +1,7 @@
+setwd("C:/Users/linzizhan/Desktop/muxViz-master")
+library(shiny)
+library(ShinyDash)
+library(shinydashboard)
+library(RColorBrewer)
+enableBookmarking(store = "server")
+runApp(getwd())
